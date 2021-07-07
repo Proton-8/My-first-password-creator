@@ -37,14 +37,13 @@ function writePassword() {
     }
     return passwordLength;
   }
-
-
-  
+ 
 function captureCharacterSet()// Function to allow user to pick the different parameters for the password (numbers, caps, lower, special)
  {
    
   charSet = ""; // reset character set
-  // what does the user want to use for the password
+
+  // what does the user want to use for the password - 4 options
    if (confirm('Do you want to use numbers?')) {
     charSet += numbers;
   }
@@ -58,10 +57,11 @@ function captureCharacterSet()// Function to allow user to pick the different pa
   if (confirm('Do you want to use special characters?')) {
     charSet += special;
   }
-  if (charSet === "")// if nothing was picked, redo...
+  if (charSet === "")// if nothing was picked, ask to pick again...
   {
       alert ("PLEASE enter at least one option - Hit Generate Password again to restart")
       return
+
   }
 }
 
