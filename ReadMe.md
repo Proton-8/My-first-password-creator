@@ -6,8 +6,7 @@
 
 First a user must choose the length from 8 to 128 characters long.  After that the following choices must be made:
 
-<li>  Do you want upper case characters?
-and lower case characters, numbers (0-9) and special characters.  
+<li>  Do you want upper case characters?</li>
 <li> Do you want lower case characters? </li>
 <li> Do you want numbers?</li>
 <li> Do you want special characters?</li>
